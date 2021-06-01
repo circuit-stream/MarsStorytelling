@@ -148,6 +148,7 @@ PlayerSettings:
   applicationIdentifier:
     Android: com.DefaultCompany.MarsStorytelling
     Standalone: com.DefaultCompany.MarsStorytelling
+    iPhone: com.DefaultCompany.MarsStorytelling
   buildNumber:
     Standalone: 0
     iPhone: 0
@@ -436,7 +437,7 @@ PlayerSettings:
   enableInternalProfiler: 0
   logObjCUncaughtExceptions: 1
   enableCrashReportAPI: 0
-  cameraUsageDescription: 
+  cameraUsageDescription: 'Augmented reality '
   locationUsageDescription: 
   microphoneUsageDescription: 
   switchNMETAOverride: 
@@ -673,6 +674,7 @@ PlayerSettings:
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
   scriptingDefineSymbols:
+    4: UNITY_CCU;UNITY_XR_ARKIT_LOADER_ENABLED
     7: UNITY_CCU
   additionalCompilerArguments: {}
   platformArchitecture: {}
