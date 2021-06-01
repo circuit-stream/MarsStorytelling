@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 967415088794672315}
   - component: {fileID: 2418359081801370294}
   - component: {fileID: 8074242516217242164}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: cm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -110,7 +110,7 @@ GameObject:
   m_Component:
   - component: {fileID: 178137459812079088}
   - component: {fileID: 2213945109279423090}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TimelineDirector
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -175,7 +175,7 @@ GameObject:
   - component: {fileID: 1330689269778610223}
   - component: {fileID: 4078578542325243945}
   - component: {fileID: 2124733318667587762}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Crystal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -381,7 +381,7 @@ GameObject:
   - component: {fileID: 4306944709010171616}
   - component: {fileID: 5026155788842589302}
   - component: {fileID: 1311851180802996358}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ParticleCollect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5188,7 +5188,7 @@ GameObject:
   - component: {fileID: 4313032832525192226}
   - component: {fileID: 4113407559047090290}
   - component: {fileID: 4112010587515698260}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lightning
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10062,7 +10062,7 @@ GameObject:
   - component: {fileID: 4313294685435254422}
   - component: {fileID: 4113026182419815730}
   - component: {fileID: 4112186816700045278}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shockwave
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14936,7 +14936,7 @@ GameObject:
   - component: {fileID: 4306819642855097944}
   - component: {fileID: 4113167453850188716}
   - component: {fileID: 4112174205775196430}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Embers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19736,7 +19736,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 957364427416378084}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CameraGroup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19769,7 +19769,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3326052233576282257}
   - component: {fileID: 6707510764735171602}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: DollyTrack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19826,7 +19826,7 @@ GameObject:
   - component: {fileID: 3195433506328322573}
   - component: {fileID: 3462745057303690670}
   - component: {fileID: 8019273530579611111}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: VirtualCamera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19913,7 +19913,7 @@ GameObject:
   - component: {fileID: 4876758541777069884}
   - component: {fileID: 4537021143809678602}
   - component: {fileID: 7911194907526406643}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CrystalVisual
   m_TagString: Untagged
   m_Icon: {fileID: 0}
