@@ -311,7 +311,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5990914b04f937948bbadbddee942611, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TraitName: bounds2d
+  m_TraitName: townsquare
   m_MatchRule: 0
 --- !u!114 &62848707
 MonoBehaviour:
@@ -1602,7 +1602,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1642097428684228223, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1642097428684228223, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
       propertyPath: m_AnchorMin.x
@@ -1610,7 +1610,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1642097428684228223, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1642097428684228223, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
       propertyPath: m_SizeDelta.x
@@ -1654,7 +1654,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1642097428684228223, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -410
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1642097428684228223, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -4705,7 +4705,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1642097428684228223, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1642097428684228223, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
       propertyPath: m_AnchorMin.x
@@ -4713,7 +4713,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1642097428684228223, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1642097428684228223, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
       propertyPath: m_SizeDelta.x
@@ -4757,7 +4757,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1642097428684228223, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -550
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1642097428684228223, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -5341,7 +5341,7 @@ MonoBehaviour:
     - m_TraitName: markerId
       m_TypeName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
       m_Required: 1
-    - m_TraitName: bounds2d
+    - m_TraitName: townsquare
       m_TypeName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
       m_Required: 1
     m_RequiredCameraFacing: 1
@@ -5830,7 +5830,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1642097428684228223, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1642097428684228223, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
       propertyPath: m_AnchorMin.x
@@ -5838,7 +5838,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1642097428684228223, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1642097428684228223, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
       propertyPath: m_SizeDelta.x
@@ -5882,7 +5882,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1642097428684228223, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -270
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1642097428684228223, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
