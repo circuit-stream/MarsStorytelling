@@ -1,0 +1,9 @@
+WorldScale -> Mars Session
+Exclusivity -> Proxy
+Move and rotate Freely -> Proxy Forces
+
+Camera culling mask - Cinemachine Camera
+
+Apply Scene Offsets - Mouse timeline animator track
+
+ScreenSpace camera for UI
