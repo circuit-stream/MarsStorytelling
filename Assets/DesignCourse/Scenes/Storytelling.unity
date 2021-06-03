@@ -1610,7 +1610,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1642097428684228223, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 1920
       objectReference: {fileID: 0}
     - target: {fileID: 1642097428684228223, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
       propertyPath: m_SizeDelta.y
@@ -1646,7 +1646,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1642097428684228223, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 960
       objectReference: {fileID: 0}
     - target: {fileID: 1642097428684228223, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -1687,6 +1687,17 @@ PrefabInstance:
     - target: {fileID: 2428490878189649382, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3092098728578195739, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
+      propertyPath: m_text
+      value: Crystals of Power and the dragon village are in many ways one and the
+        same, different manifestations of the same core. Dragons look up to crystals
+        for guidance, each household holds a small shard high above the wall, as
+        a remembrance of their shared connection.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3133127968398445669, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
+      propertyPath: m_text
+      value: As above so below
       objectReference: {fileID: 0}
     - target: {fileID: 3229112880058007996, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1793,6 +1804,11 @@ PrefabInstance:
 --- !u!224 &465259141 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1642097428684228223, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
+  m_PrefabInstance: {fileID: 465259140}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &465259142 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 719814710920381855, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
   m_PrefabInstance: {fileID: 465259140}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &476435322
@@ -2757,6 +2773,8 @@ PlayableDirector:
     value: {fileID: 7168715069929608830}
   - key: {fileID: 1992297421716733981, guid: a3093e696c1be5d46b6ef1a5237722e6, type: 2}
     value: {fileID: 1881467419}
+  - key: {fileID: 3727817031309426302, guid: a3093e696c1be5d46b6ef1a5237722e6, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
 --- !u!1001 &768780984
@@ -3088,6 +3106,18 @@ MonoBehaviour:
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: Interacted
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 465259142}
+          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
             m_BoolArgument: 1
           m_CallState: 2
 --- !u!135 &815808593
@@ -3889,6 +3919,18 @@ MonoBehaviour:
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: Interacted
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 1642097427772287544}
+          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
             m_BoolArgument: 1
           m_CallState: 2
 --- !u!135 &901262448
@@ -6086,6 +6128,18 @@ MonoBehaviour:
             m_StringArgument: Interacted
             m_BoolArgument: 1
           m_CallState: 2
+        - m_Target: {fileID: 1910031479}
+          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
 --- !u!135 &1706705368
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -7077,7 +7131,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1642097428684228223, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 1920
       objectReference: {fileID: 0}
     - target: {fileID: 1642097428684228223, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
       propertyPath: m_SizeDelta.y
@@ -7113,7 +7167,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1642097428684228223, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 960
       objectReference: {fileID: 0}
     - target: {fileID: 1642097428684228223, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -7154,6 +7208,17 @@ PrefabInstance:
     - target: {fileID: 2428490878189649382, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3092098728578195739, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
+      propertyPath: m_text
+      value: Crystals of Power hail from ancient magic, when dragons spoke different
+        tongues, and could summon their power at will. Little is known about it nowadays,
+        only that magic requires both Verbal and Material components, that is, magic
+        words and a spell circle.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3133127968398445669, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
+      propertyPath: m_text
+      value: Ego vocare te!
       objectReference: {fileID: 0}
     - target: {fileID: 3229112880058007996, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
       propertyPath: m_AnchorMax.y
@@ -7260,6 +7325,11 @@ PrefabInstance:
 --- !u!224 &1910031478 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1642097428684228223, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
+  m_PrefabInstance: {fileID: 1910031477}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1910031479 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 719814710920381855, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
   m_PrefabInstance: {fileID: 1910031477}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1911899150
@@ -8414,8 +8484,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Objectives
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 7cb3ac59f009b9e4c987c97c7183f3d4, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 0f9721fe1fa6fb74eb6ba4b43209ce72, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -8439,13 +8509,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 100
-  m_fontSizeBase: 100
+  m_fontSize: 140
+  m_fontSizeBase: 140
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -8615,7 +8685,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1642097428684228223, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 1920
       objectReference: {fileID: 0}
     - target: {fileID: 1642097428684228223, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
       propertyPath: m_SizeDelta.y
@@ -8651,7 +8721,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1642097428684228223, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 960
       objectReference: {fileID: 0}
     - target: {fileID: 1642097428684228223, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -8668,6 +8738,38 @@ PrefabInstance:
     - target: {fileID: 1642097428684228223, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2428490878189649382, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2428490878189649382, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2428490878189649382, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2428490878189649382, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2428490878189649382, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2428490878189649382, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3092098728578195739, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
+      propertyPath: m_text
+      value: "Crystals of Power are naturally linked to the Dragon village, having
+        existed for over millennia, keeping the people safe and their crops plantiful.
+        Due to this connection, a crystal of power is bound to be close by:\r\n\r\nBordering
+        the village, yet still in secrecy;\r\nOut of sight, hidden in narrow spaces;\r\nJust
+        a stroll away.. but watch your step, lest you fall on your face.\r"
       objectReference: {fileID: 0}
     - target: {fileID: 3229112880058007996, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
       propertyPath: m_AnchorMax.y
@@ -8757,12 +8859,49 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6680293471776563074, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6680293471776563074, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6680293471776563074, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7679155543978868209, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
       objectReference: {fileID: 1868377774}
+    - target: {fileID: 8505589923785576902, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8505589923785576902, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8505589923785576902, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8505589923785576902, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8505589923785576902, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
+--- !u!1 &1642097427772287544 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 719814710920381855, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
+  m_PrefabInstance: {fileID: 1642097427772287543}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2070124775114195919
 GameObject:
   m_ObjectHideFlags: 0
@@ -13818,8 +13957,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: ee664e149de442c4794a92b42b8bbe4d, type: 3}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
