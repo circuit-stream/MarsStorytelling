@@ -1610,7 +1610,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1642097428684228223, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1920
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1642097428684228223, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
       propertyPath: m_SizeDelta.y
@@ -1646,7 +1646,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1642097428684228223, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 960
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1642097428684228223, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -2739,7 +2739,7 @@ PlayableDirector:
   serializedVersion: 3
   m_PlayableAsset: {fileID: 11400000, guid: a3093e696c1be5d46b6ef1a5237722e6, type: 2}
   m_InitialState: 1
-  m_WrapMode: 0
+  m_WrapMode: 2
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
   m_SceneBindings:
@@ -3693,7 +3693,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'But I just can''t decipher
 
-    those damned prophecies'
+    those damned coordinates'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7cb3ac59f009b9e4c987c97c7183f3d4, type: 2}
   m_sharedMaterial: {fileID: 4773438568947254018, guid: 7cb3ac59f009b9e4c987c97c7183f3d4, type: 2}
@@ -5057,9 +5057,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Oh, you are not Cthulhu...
+  m_text: 'Oh, you are not the Lord Commander...
 
-    That bastard destroyed my whole village!'
+    That bastard destroyed my whole
+    village!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7cb3ac59f009b9e4c987c97c7183f3d4, type: 2}
   m_sharedMaterial: {fileID: 4773438568947254018, guid: 7cb3ac59f009b9e4c987c97c7183f3d4, type: 2}
@@ -5429,7 +5430,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Please God! Don't kill me!
+  m_text: Arrgh! please don't kill me Lord!!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7cb3ac59f009b9e4c987c97c7183f3d4, type: 2}
   m_sharedMaterial: {fileID: 4773438568947254018, guid: 7cb3ac59f009b9e4c987c97c7183f3d4, type: 2}
@@ -7076,7 +7077,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1642097428684228223, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1920
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1642097428684228223, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
       propertyPath: m_SizeDelta.y
@@ -7112,7 +7113,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1642097428684228223, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 960
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1642097428684228223, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -8614,7 +8615,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1642097428684228223, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1920
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1642097428684228223, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
       propertyPath: m_SizeDelta.y
@@ -8650,7 +8651,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1642097428684228223, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 960
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1642097428684228223, guid: aebcceb1ba135be40a0a4de3ccf3e7ac, type: 3}
       propertyPath: m_AnchoredPosition.y
