@@ -570,7 +570,6 @@ GameObject:
   - component: {fileID: 177865642}
   - component: {fileID: 177865643}
   - component: {fileID: 177865639}
-  - component: {fileID: 177865644}
   - component: {fileID: 177865646}
   - component: {fileID: 177865645}
   m_Layer: 0
@@ -717,26 +716,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cf1d520da72e4dd1b940fabcc6e5845, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_AllowedMotion: 1
+  m_AllowedMotion: 0
   m_ContinuousSolve: 1
   m_RequireForces: 0
---- !u!114 &177865644
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 177865634}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b8c90098445584863adcc8d06093b164, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_TargetProxy: {fileID: 2023955264}
-  m_TargetRelation: 2
-  m_ScaleForces:
-    movementScale: 0
-    rotationScale: 2
 --- !u!95 &177865645
 Animator:
   serializedVersion: 3
@@ -1956,6 +1938,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1730114315806446940, guid: bbde95637ab5cd44b93bc2aeefbfa58a, type: 3}
+      propertyPath: m_TargetProxy
+      value: 
+      objectReference: {fileID: 177865643}
     - target: {fileID: 2988735439573624453, guid: bbde95637ab5cd44b93bc2aeefbfa58a, type: 3}
       propertyPath: m_TargetProxy
       value: 
@@ -2511,7 +2497,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 667927401}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -2522,7 +2508,7 @@ Transform:
   - {fileID: 1965177286}
   m_Father: {fileID: 177865638}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &667927403
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3231,6 +3217,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1730114315806446940, guid: bbde95637ab5cd44b93bc2aeefbfa58a, type: 3}
+      propertyPath: m_TargetProxy
+      value: 
+      objectReference: {fileID: 177865643}
     - target: {fileID: 2988735439573624453, guid: bbde95637ab5cd44b93bc2aeefbfa58a, type: 3}
       propertyPath: m_TargetProxy
       value: 
@@ -8703,6 +8693,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1730114315806446940, guid: bbde95637ab5cd44b93bc2aeefbfa58a, type: 3}
+      propertyPath: m_TargetProxy
+      value: 
+      objectReference: {fileID: 177865643}
     - target: {fileID: 2988735439573624453, guid: bbde95637ab5cd44b93bc2aeefbfa58a, type: 3}
       propertyPath: m_TargetProxy
       value: 
