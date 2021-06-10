@@ -91,7 +91,6 @@ GameObject:
   - component: {fileID: 8976837603232109760}
   - component: {fileID: 2001232927294378943}
   - component: {fileID: 876511126998491465}
-  - component: {fileID: 8290694331253688916}
   - component: {fileID: 1730114315806446940}
   m_Layer: 0
   m_Name: BuildingProxyPrefab
@@ -238,23 +237,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_RegionTransform: {fileID: 1545941099161034786}
   m_IsPadding: 0
---- !u!114 &8290694331253688916
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1545941099639971739}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83227da79e7d84d318ffea71bfabcdf2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_KeepMatchPlane: 1
-  m_UsePlaneSizeCondition: 1
-  m_UseAlignmentCondition: 1
-  m_PlaneSize: {x: 0.5, y: 0.5}
-  m_PlaneAlignment: 1
 --- !u!114 &1730114315806446940
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -268,7 +250,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_TargetProxy: {fileID: 0}
-  m_TargetRelation: 3
+  m_TargetRelation: 2
   m_ScaleForces:
     movementScale: 1
     rotationScale: 1
