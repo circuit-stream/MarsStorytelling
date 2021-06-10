@@ -251,7 +251,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_KeepMatchPlane: 1
-  m_UsePlaneSizeCondition: 0
+  m_UsePlaneSizeCondition: 1
   m_UseAlignmentCondition: 1
   m_PlaneSize: {x: 0.5, y: 0.5}
   m_PlaneAlignment: 1
@@ -270,7 +270,7 @@ MonoBehaviour:
   m_TargetProxy: {fileID: 0}
   m_TargetRelation: 3
   m_ScaleForces:
-    movementScale: 2
+    movementScale: 1
     rotationScale: 1
 --- !u!1 &1545941099817534883
 GameObject:
